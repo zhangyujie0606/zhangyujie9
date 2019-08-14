@@ -1,0 +1,24 @@
+name: 张玉洁的组件9
+description: 最多标签
+keywords:
+  - websocket
+  - network
+  - 1
+  - 张玉洁的标签
+
+license: MMMMMMM                                   # GPLv2，LGPLv2.1，MIT，Apache license v2.0，BSD
+
+source_file:
+  - src/*.c
+
+build_config:
+  include:
+    - include
+  cflag: ""                             # C 编译器所需要要的编译参数
+  define:                                      # 宏定义
+    - CONFIG_USING_TLS
+
+install:
+  - dest: include
+    source:
+      - "include/librws.h"
