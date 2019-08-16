@@ -18,7 +18,7 @@
   _socket = rws_socket_create();
 ```
 ##### Set websocket connection url
-```c
+```cfewgwreg5eyherte
 // Combined url: "ws://echo.websocket.org:80/"
 rws_socket_set_scheme(_socket, "ws");
 rws_socket_set_host(_socket, "echo.websocket.org");
